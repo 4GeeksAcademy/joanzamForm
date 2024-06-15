@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container border border-secondary rounded-1">
+        <form action="">
+            <!--fila 1-->
+            <div class="row bg-secondary-subtle">
+                <div class="col-12">
+                    <h2>Payment form example</h2>
+                </div>
+            </div>
+            <!--fila 2-->
+            <div class="row d-flex p-3">
+                <div class="col-12 align-self-center">
+                    <div class="alert alert-danger" role="alert">
+                        Some fields are missing
+                    </div>
+                </div>
+            </div>
+            <!--fila 3-->
+            <div class="row d-flex pt-3">
+                <div class="col-5 d-flex flex-column">
+                    <p>Card #</p>
+                    <input type="text" placeholder="XXXXXXXXXXXXXXXX">
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <P>CVC#</P>
+                    <input type="text" placeholder="0000">
+                </div>
+                <div class="col-4 d-flex flex-column">
+                    <p>Amount</p>
+                    <input type="text" placeholder="Amount">
+                </div>
+            </div>
+            <!--Fila 4-->
+            <div class="row d-flex pt-3">
+                <div class="col-6 d-flex flex-column">
+                    <p>First Name</p>
+                    <input type="text">
+                </div>
+                <div class="col-6 d-flex flex-column">
+                    <p>Last Name</p>
+                    <input type="text">
+                </div>
+            </div>
+            <!--Fila 5-->
+            <div class="row d-flex pt-3">
+                <div class="col-6 d-flex flex-column">
+                    <p>City</p>
+                    <input type="text" class="widthInput">
+                </div>
+                <div class="col-4 d-flex flex-column">
+                    <p>State</p>
+                    <select name="State" id="State">
+                        <option value="Pick a state">Pick a state</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                    </select>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <p>Postal Code</p>
+                    <input type="text">
+                </div>
+            </div>
+            <!--fila 6-->
+            <div class="row d-flex pt-3">
+                <div class="col-2">
+                    <p>We accept:</p>
+                    <div class="d-flex bg-secondary rounded-1">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><img src="dinero (2).png"
+                                    alt="mastercard"></label>
+                        </div>
+                        <div class=" form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><img src="visa (1).png"
+                                    alt="Visa"></label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><img src="diners-club (1).png"
+                                    alt="DinersClud"></label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><img src="american.png"
+                                    alt="American Express"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-6 d-flex flex-column">
+                    <p>Message</p>
+                    <textarea></textarea>
+                    <div class="text-secondary">
+                        <p>Add any notes here.</p>
+                    </div>
+                </div>
+            </div>
+            <!--fila 7-->
+            <div class="row bg-secondary-subtle">
+                <div class="col-12 d-flex justify-content-end p-2">
+                    <button type="button" class="btn btn-secondary btn-sm m-1">Cancel</button>
+                    <button type="button" class="btn btn-primary btn-sm m-1">Send</button>
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+    <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
